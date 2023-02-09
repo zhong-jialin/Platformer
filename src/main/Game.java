@@ -1,8 +1,10 @@
 package main;
 
 public class Game {
+    private Gamewindow gamewindow;
+    private GamePanel gamePanel;
     public Game(){
-        System.out.println("Gmae class");
-
+        gamePanel = new GamePanel();
+        gamewindow = new Gamewindow(gamePanel);
     }
 }
