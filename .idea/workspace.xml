@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="游戏循环" />
+    <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="animation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,20 +28,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.MainClass" />
@@ -66,7 +66,9 @@
       <updated>1675934221297</updated>
       <workItem from="1675934222416" duration="2205000" />
       <workItem from="1675940053598" duration="12077000" />
-      <workItem from="1675996378424" duration="7146000" />
+      <workItem from="1675996378424" duration="16606000" />
+      <workItem from="1676031600516" duration="5543000" />
+      <workItem from="1676038618555" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675934646853</created>
@@ -110,7 +112,119 @@
       <option name="project" value="LOCAL" />
       <updated>1676012552278</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="游戏循环">
+      <created>1676012661831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676012661831</updated>
+    </task>
+    <task id="LOCAL-00008" summary="animation">
+      <created>1676030793889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676030793889</updated>
+    </task>
+    <task id="LOCAL-00009" summary="animation">
+      <created>1676031417607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676031417607</updated>
+    </task>
+    <task id="LOCAL-00010" summary="animation">
+      <created>1676031612803</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676031612803</updated>
+    </task>
+    <task id="LOCAL-00011" summary="animation">
+      <created>1676032171731</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032171731</updated>
+    </task>
+    <task id="LOCAL-00012" summary="animation">
+      <created>1676032431315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032431315</updated>
+    </task>
+    <task id="LOCAL-00013" summary="animation">
+      <created>1676032478318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032478318</updated>
+    </task>
+    <task id="LOCAL-00014" summary="animation">
+      <created>1676032498644</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032498644</updated>
+    </task>
+    <task id="LOCAL-00015" summary="animation">
+      <created>1676032649921</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032649921</updated>
+    </task>
+    <task id="LOCAL-00016" summary="animation">
+      <created>1676032827500</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032827500</updated>
+    </task>
+    <task id="LOCAL-00017" summary="animation">
+      <created>1676038632288</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676038632288</updated>
+    </task>
+    <task id="LOCAL-00018" summary="animation">
+      <created>1676039176840</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676039176840</updated>
+    </task>
+    <task id="LOCAL-00019" summary="animation">
+      <created>1676039493534</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676039493534</updated>
+    </task>
+    <task id="LOCAL-00020" summary="animation">
+      <created>1676039631633</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676039631633</updated>
+    </task>
+    <task id="LOCAL-00021" summary="animation">
+      <created>1676039768221</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676039768221</updated>
+    </task>
+    <task id="LOCAL-00022" summary="animation">
+      <created>1676040018323</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676040018323</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +245,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="键盘，鼠标操作控制" />
     <MESSAGE value="游戏循环" />
-    <option name="LAST_COMMIT_MESSAGE" value="游戏循环" />
+    <MESSAGE value="animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
