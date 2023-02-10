@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/inputs/Keyboardinputs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/MouseInputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Gamewindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Gamewindow.java" afterDir="false" />
-    </list>
+    <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="游戏循环" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +37,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675934221297</updated>
       <workItem from="1675934222416" duration="2205000" />
-      <workItem from="1675940053598" duration="5902000" />
+      <workItem from="1675940053598" duration="12077000" />
+      <workItem from="1675996378424" duration="7146000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675934646853</created>
@@ -87,15 +82,56 @@
       <option name="project" value="LOCAL" />
       <updated>1675940618135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="键盘，鼠标操作控制">
+      <created>1675951259626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675951259626</updated>
+    </task>
+    <task id="LOCAL-00004" summary="游戏循环">
+      <created>1676012450266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676012450266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="游戏循环">
+      <created>1676012475345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676012475345</updated>
+    </task>
+    <task id="LOCAL-00006" summary="游戏循环">
+      <created>1676012552278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676012552278</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="键盘，鼠标操作控制" />
+    <MESSAGE value="游戏循环" />
+    <option name="LAST_COMMIT_MESSAGE" value="游戏循环" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
