@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="animation" />
+    <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="animation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +75,10 @@
       <workItem from="1675940053598" duration="12077000" />
       <workItem from="1675996378424" duration="16606000" />
       <workItem from="1676031600516" duration="5543000" />
-      <workItem from="1676038618555" duration="1390000" />
+      <workItem from="1676038618555" duration="2657000" />
+      <workItem from="1676082085986" duration="8000" />
+      <workItem from="1676085790507" duration="878000" />
+      <workItem from="1676786167745" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675934646853</created>
@@ -224,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676040018323</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="animation">
+      <created>1676040115081</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676040115081</updated>
+    </task>
+    <task id="LOCAL-00024" summary="animation">
+      <created>1676040294041</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676040294041</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
