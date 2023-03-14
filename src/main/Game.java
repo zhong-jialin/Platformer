@@ -1,5 +1,9 @@
 package main;
 
+import entities.Player;
+
+import java.awt.*;
+
 public class Game implements Runnable{
     private Gamewindow gamewindow;
     private GamePanel gamePanel;
@@ -7,14 +11,23 @@ public class Game implements Runnable{
     private Thread gameThread;
     private final int PFS_SET = 120;
     private final int UPS_SET = 120;
+    private Player player;
     public Game(){
-        gamePanel = new GamePanel();
+        initClasses();
+        gamePanel = new GamePanel(this);
         gamewindow = new Gamewindow(gamePanel);
         //必须添加 不然不能触发方法
         gamePanel.setFocusable(true);
         gamePanel.requestFocus();
+
         startGameLoop();
+
     }
+
+    private void initClasses() {
+        player = new Player(200,200);
+    }
+
     //刷新画面
     private void startGameLoop(){
         gameThread = new Thread(this);
@@ -23,7 +36,10 @@ public class Game implements Runnable{
 
     //固定120帧
     private void update() {
-        gamePanel.updateGame();
+       player.update();
+    }
+    public  void render(Graphics g){
+        player.render(g);
     }
     @Override
     public void run() {
@@ -72,6 +88,8 @@ public class Game implements Runnable{
             }
         }
     }
-
+    public Player getPLayer(){
+        return player;
+    }
 
 }

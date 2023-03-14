@@ -17,17 +17,6 @@ public class Keyboardinputs  implements KeyListener {
     public void keyTyped(KeyEvent e) {
 
     }
-
-    @Override
-    public void keyPressed(KeyEvent e) {
-        switch (e.getKeyCode()) {
-            case KeyEvent.VK_W -> gamePanel.setDirection(UP);
-            case KeyEvent.VK_A -> gamePanel.setDirection(LEFT);
-            case KeyEvent.VK_S -> gamePanel.setDirection(RIGHT);
-            case KeyEvent.VK_D -> gamePanel.setDirection(DOWN);
-        }
-    }
-
     @Override
     public void keyReleased(KeyEvent e) {
         switch (e.getKeyCode()) {
@@ -35,8 +24,20 @@ public class Keyboardinputs  implements KeyListener {
             case KeyEvent.VK_A : ;
             case KeyEvent.VK_S : ;
             case KeyEvent.VK_D :
-                gamePanel.SetMoving(false);
+                gamePanel.getGame().getPLayer().SetMoving(false);
                 break;
         }
     }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        switch (e.getKeyCode()) {
+            case KeyEvent.VK_W -> gamePanel.getGame().getPLayer().setDirection(UP);
+            case KeyEvent.VK_A -> gamePanel.getGame().getPLayer().setDirection(LEFT);
+            case KeyEvent.VK_S -> gamePanel.getGame().getPLayer().setDirection(RIGHT);
+            case KeyEvent.VK_D -> gamePanel.getGame().getPLayer().setDirection(DOWN);
+        }
+    }
+
+
 }
