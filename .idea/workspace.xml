@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e728e0fa-4b81-4248-a5d5-8117b8693e1f" name="变更" comment="animation">
-      <change afterPath="$PROJECT_DIR$/src/entities/Entities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputs/Keyboardinputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/Keyboardinputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/zhong/桌面/Platformer",
+    "last_opened_file_path": "/home/zhong/桌面/JAVA-STU",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +83,7 @@
       <workItem from="1678593969717" duration="10000" />
       <workItem from="1678682751098" duration="1000" />
       <workItem from="1678688697560" duration="453000" />
-      <workItem from="1678805628910" duration="2935000" />
+      <workItem from="1678805628910" duration="3595000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675934646853</created>
@@ -259,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676040294041</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="animation">
+      <created>1678809520556</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678809520556</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
